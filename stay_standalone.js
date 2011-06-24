@@ -3,7 +3,7 @@ if(("standalone" in window.navigator) && window.navigator.standalone){
 
 	window.addEventListener("load",function() {
 		
-		links = document.getElementsByTagName('a');
+		var links = document.getElementsByTagName('a');
 			
 		for (var i=0; i < links.length; i++)
 		{
